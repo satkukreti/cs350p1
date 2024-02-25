@@ -1,0 +1,10 @@
+#include "types.h"
+#include "stat.h"
+#include "user.h"
+
+int main(int argc, char * argv[])
+{
+  printf(1, "Write down your name, which will be used to calculate your IQ with 100% accuracy:\n");
+  iqtest();
+  exit();
+}
